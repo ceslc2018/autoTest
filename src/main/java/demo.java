@@ -5,7 +5,7 @@ public class demo {
 
     @Test
     public void Success(){
-        System.out.println("演示1");
+        System.out.println("演示");
     }
 
     @Test
