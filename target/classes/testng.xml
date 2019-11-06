@@ -9,6 +9,7 @@
     </test>
 
     <listeners>
+        <!--<listener class-name="ExtentTestNGIReporterListener"/>-->
         <listener class-name="ExtentTestNGIReporterListener"/>
     </listeners>
 
