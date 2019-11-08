@@ -1,11 +1,21 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<suite name="接口测试套件">
-    <test name="测试模块">
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="接口测试套件" parallel = "methods" thread-count="3">
+
+    <test name="演示测试">
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="print"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+
+        <parameter name="a" value="20"/>
+        <parameter name="b" value="20"/>
+
         <classes>
             <class name="demo"/>
-
+            <class name="jiraLoginTest"/>
+            <class name="dataTest"/>
         </classes>
-
     </test>
 
     <listeners>
