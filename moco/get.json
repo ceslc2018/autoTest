@@ -1,0 +1,35 @@
+[
+ {
+   "description":"无参数请求",
+   "request": {
+     "uri": "/get",
+     "method":"get",
+     "cookies":{
+       "login":"true"
+     }
+
+   },
+     "response":{
+       "text":"无参数请求"
+     }
+   },
+  {
+    "description": "带参数请求",
+    "request": {
+      "uri": "/getDemo",
+      "method": "get",
+      "queries": {
+        "name": "lc",
+        "id": "1193"
+      }
+    },
+    "response": {
+      "text": "CES"
+      }
+  }
+
+
+
+
+
+]

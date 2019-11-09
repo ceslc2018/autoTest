@@ -1,0 +1,47 @@
+[
+  {
+    "description":"post请求",
+    "request":{
+      "uri":"/post",
+      "method":"post",
+      "cookies":{
+        "login":"true"
+      },
+      "forms":{
+        "name":"lc",
+        "id":"1193"
+      }
+    },
+    "response":{
+      "text":"post请求成功"
+    }
+
+  },
+
+  {
+    "description":"postwithcookies",
+    "request":{
+      "uri":"/postwithcookies",
+      "method":"post",
+      "headers":{
+        "content-type":"application/json"
+      },
+      "cookies":{
+        "login":"true"
+      },
+      "json":{
+        "name":"lc",
+        "id":"1193"
+      }
+    },
+
+    "response":{
+      "status":200,
+      "json":{
+        "name":"success",
+        "id":"1193"
+      }
+    }
+
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "description":"重定向",
+    "request":{
+      "uri":"/redir"
+
+    },
+
+      "redirectTo":"/redirnew"
+
+  },
+  {
+    "description":"真实访问地址",
+    "request":{
+      "uri":"/redirnew"
+    },
+    "response":{
+    "text":"响应成功"
+    }
+  }
+]

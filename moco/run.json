@@ -1,0 +1,12 @@
+[
+
+  {
+    "description":"mock演示",
+    "request":{
+      "uri":"/demo"
+    },
+    "response":{
+      "text":"mock演示"
+    }
+  }
+]
