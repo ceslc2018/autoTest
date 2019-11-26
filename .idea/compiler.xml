@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="_123" target="6" />
-      <module name="study" target="6" />
-      <module name="test" target="6" />
+      <module name="test" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

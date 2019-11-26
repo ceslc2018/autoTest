@@ -1,35 +1,16 @@
 [
- {
-   "description":"无参数请求",
-   "request": {
-     "uri": "/get",
-     "method":"get",
-     "cookies":{
-       "login":"true"
-     }
-
-   },
-     "response":{
-       "text":"无参数请求"
-     }
-   },
   {
-    "description": "带参数请求",
+    "description": "无参数请求",
     "request": {
-      "uri": "/getDemo",
+      "uri": "/get",
       "method": "get",
-      "queries": {
-        "name": "lc",
-        "id": "1193"
+      "cookies":{
+        "login":"true"
       }
     },
     "response": {
-      "text": "CES"
-      }
+
+      "text": "请求成功"
+    }
   }
-
-
-
-
-
 ]

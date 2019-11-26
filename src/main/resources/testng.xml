@@ -12,9 +12,10 @@
         <parameter name="b" value="20"/>
 
         <classes>
-            <class name="demo"/>
-            <class name="jiraLoginTest"/>
-            <class name="dataTest"/>
+            <!--<class name="demo"/>-->
+            <!--<class name="jiraLoginTest"/>-->
+            <!--<class name="dataTest"/>-->
+            <class name="httpClient"/>
         </classes>
     </test>
 
